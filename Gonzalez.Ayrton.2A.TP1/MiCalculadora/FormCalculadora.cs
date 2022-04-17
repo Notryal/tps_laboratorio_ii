@@ -70,17 +70,17 @@ namespace MiCalculadora
 
 
         }
-
+        /// <summary>
+        /// Evento cuando se presiona el boton limpiar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             Limpiar();
         }
 
-        /// <summary>
-        /// Metodo del evento click del boton convertir a binario
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
 
         #endregion
 
@@ -116,7 +116,11 @@ namespace MiCalculadora
 
             return Calculadora.Operar(num1, num2, Convert.ToChar(operador));
         }
-
+        /// <summary>
+        /// Verificacion si el usuario desea salir
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FormCalculadora_FormClosing(object sender, FormClosingEventArgs e)
         {
             DialogResult flag = MessageBox.Show("¿Desea Salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1);

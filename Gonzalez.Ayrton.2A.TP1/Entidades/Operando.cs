@@ -93,7 +93,7 @@ namespace Entidades
         /// <param name="strNumero"></param>
         public Operando(string strNumero)
         {
-            this.propiedadNumero = strNumero;
+            this.Numero = strNumero;
         }
 
         //set
@@ -101,7 +101,7 @@ namespace Entidades
         /// <summary>
         /// La propiedad Numero asignará un valor al atributo número, previa validación. En este lugar será el único en todo el código que llame al método ValidarOperando.
         /// </summary>
-        public string propiedadNumero
+        private string Numero
         {
             set
             {

@@ -16,8 +16,6 @@ namespace Entidades
         /// <returns></returns> Retornara un string que contiene el valor decimal en caso de ser posible. Caso contrario retornará "Valor inválido
         public static string BinarioDecimal(string binario)
         {
-            //bool flagBinario=true;
-
             StringBuilder sb = new StringBuilder();
 
             sb.Append("Valor inválido");
@@ -28,7 +26,6 @@ namespace Entidades
                 {
                     if (c != '1' && c != '0')
                     {
-                        //flagBinario = false;
                         break;
                     }
                 }
@@ -85,7 +82,7 @@ namespace Entidades
         /// <param name="numero"></param>
         public Operando(double numero) : this(numero.ToString())
         {
-            //this.numero = numero;
+
         }
         /// <summary>
         /// Constructor que recibe un string
@@ -106,18 +103,15 @@ namespace Entidades
             set
             {
                 this.numero = this.ValidarOperando(value);
-
-                //ValidarOperando
             }
         }
-
 
         /// <summary>
         /// El método privado EsBinario validará que la cadena de caracteres esté compuesta SOLAMENTE por caracteres '0' o '1'.
         /// </summary>
         /// <param name="caracter"></param>
         /// <returns>un booleano que retorna falso si no es un numero binario </returns>
-        private bool esBinario(string caracter)
+        private bool EsBinario(string caracter)
         {
             bool flag = true;
 
@@ -200,7 +194,6 @@ namespace Entidades
         /// <returns></returns>
         private double ValidarOperando(string strNumero)
         {
-
             double num;
 
             if (!double.TryParse(strNumero, out num)) //en caso de que NO pueda retornarlo en double, lo retorna en 0
@@ -211,11 +204,5 @@ namespace Entidades
             return num;
 
         }
-
-
-
-
     }
-
-
 }

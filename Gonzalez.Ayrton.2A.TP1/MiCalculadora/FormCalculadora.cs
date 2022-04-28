@@ -89,12 +89,10 @@ namespace MiCalculadora
         /// </summary>
         private void Limpiar()
         {
-            
             cmbOperador.SelectedItem = "";
             this.txtNumero1.Clear();
             this.txtNumero2.Clear();
             this.lblResultado.Text="";
-
         }
         /// <summary>
         /// El método Operar será estático recibirá los dos números y el operador para luego llamar al método Operar de Calculadora
@@ -111,7 +109,6 @@ namespace MiCalculadora
             if (operador == "/" && numero2 == "0")
             {
                 MessageBox.Show("No se puede dividir por cero", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
             }
 
             return Calculadora.Operar(num1, num2, Convert.ToChar(operador));
@@ -129,7 +126,6 @@ namespace MiCalculadora
             {
                 e.Cancel = true;
             }
-
         }
 
         /// <summary>

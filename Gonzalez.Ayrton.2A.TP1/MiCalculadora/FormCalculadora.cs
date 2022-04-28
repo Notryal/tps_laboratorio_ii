@@ -78,6 +78,7 @@ namespace MiCalculadora
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             Limpiar();
+            ActivarBotones();
         }
 
 
@@ -94,6 +95,17 @@ namespace MiCalculadora
             this.txtNumero2.Clear();
             this.lblResultado.Text="";
         }
+
+        /// <summary>
+        /// Metodo que activa los botones conversores luego de ser usados
+        /// </summary>
+        private void ActivarBotones()
+        {
+            btnConvertirADecimal.Enabled = true;
+            btnConvertirABinario.Enabled = true;
+        }
+
+
         /// <summary>
         /// El método Operar será estático recibirá los dos números y el operador para luego llamar al método Operar de Calculadora
         /// </summary>

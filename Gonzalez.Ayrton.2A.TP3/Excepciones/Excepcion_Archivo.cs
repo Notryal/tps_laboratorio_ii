@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Excepciones
 {
-    public class Exception_Archivo : Exception
+    public class Excepcion_Archivo : Exception
     {
 
         /// <summary>
         /// Crea una excepcion con un mensaje
         /// </summary>
         /// <param name="message">Mensaje de la excepcion</param>
-        public Exception_Archivo(string message) : this(message, null)
+        public Excepcion_Archivo(string message) : this(message, null)
         {
 
         }
@@ -23,7 +23,7 @@ namespace Excepciones
         /// </summary>
         /// <param name="message">Mensaje de la excepcion</param>
         /// <param name="innerException">innerException de la excepcion</param>
-        public Exception_Archivo(string message, Exception innerException) : base(message, innerException)
+        public Excepcion_Archivo(string message, Exception innerException) : base(message, innerException)
         {
 
         }

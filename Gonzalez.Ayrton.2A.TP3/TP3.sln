@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Enti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP3-Form", "TP3-Form\TP3-Form.csproj", "{8C6254CE-BC84-4FB7-8384-78E992965D86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{2F5F84BF-B759-44E9-8735-77B1F2269D52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{2F5F84BF-B759-44E9-8735-77B1F2269D52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Excepciones", "Excepciones\Excepciones.csproj", "{06F78998-9B8B-48FF-BCEB-D982D0B141AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2F5F84BF-B759-44E9-8735-77B1F2269D52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F5F84BF-B759-44E9-8735-77B1F2269D52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F5F84BF-B759-44E9-8735-77B1F2269D52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F78998-9B8B-48FF-BCEB-D982D0B141AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F78998-9B8B-48FF-BCEB-D982D0B141AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F78998-9B8B-48FF-BCEB-D982D0B141AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F78998-9B8B-48FF-BCEB-D982D0B141AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TP3_Form
 {
-    public partial class FormABM : Form
+    public partial class ABM : Form
     {
-        public FormABM()
+        public ABM()
         {
             InitializeComponent();
         }

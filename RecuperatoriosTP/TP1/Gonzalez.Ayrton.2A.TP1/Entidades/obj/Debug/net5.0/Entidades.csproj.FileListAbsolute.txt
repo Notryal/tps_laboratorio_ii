@@ -1,0 +1,12 @@
+C:\Users\Cherry\Documents\GitHub\tps_laboratorio_ii\RecuperatoriosTP\TP1\Gonzalez.Ayrton.2A.TP1\Entidades\bin\Debug\net5.0\Entidades.deps.json
+C:\Users\Cherry\Documents\GitHub\tps_laboratorio_ii\RecuperatoriosTP\TP1\Gonzalez.Ayrton.2A.TP1\Entidades\bin\Debug\net5.0\Entidades.dll
+C:\Users\Cherry\Documents\GitHub\tps_laboratorio_ii\RecuperatoriosTP\TP1\Gonzalez.Ayrton.2A.TP1\Entidades\bin\Debug\net5.0\ref\Entidades.dll
+C:\Users\Cherry\Documents\GitHub\tps_laboratorio_ii\RecuperatoriosTP\TP1\Gonzalez.Ayrton.2A.TP1\Entidades\bin\Debug\net5.0\Entidades.pdb
+C:\Users\Cherry\Documents\GitHub\tps_laboratorio_ii\RecuperatoriosTP\TP1\Gonzalez.Ayrton.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\Cherry\Documents\GitHub\tps_laboratorio_ii\RecuperatoriosTP\TP1\Gonzalez.Ayrton.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cherry\Documents\GitHub\tps_laboratorio_ii\RecuperatoriosTP\TP1\Gonzalez.Ayrton.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\Cherry\Documents\GitHub\tps_laboratorio_ii\RecuperatoriosTP\TP1\Gonzalez.Ayrton.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfo.cs
+C:\Users\Cherry\Documents\GitHub\tps_laboratorio_ii\RecuperatoriosTP\TP1\Gonzalez.Ayrton.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Cherry\Documents\GitHub\tps_laboratorio_ii\RecuperatoriosTP\TP1\Gonzalez.Ayrton.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.dll
+C:\Users\Cherry\Documents\GitHub\tps_laboratorio_ii\RecuperatoriosTP\TP1\Gonzalez.Ayrton.2A.TP1\Entidades\obj\Debug\net5.0\ref\Entidades.dll
+C:\Users\Cherry\Documents\GitHub\tps_laboratorio_ii\RecuperatoriosTP\TP1\Gonzalez.Ayrton.2A.TP1\Entidades\obj\Debug\net5.0\Entidades.pdb
